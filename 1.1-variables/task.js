@@ -6,8 +6,6 @@
  */
 
 function averageMark(a, g, p) {
-	
-	let a = 5, g = 3, p = 4;
 
 	let average = (a + g + p) / 3;
 
@@ -15,10 +13,8 @@ function averageMark(a, g, p) {
 }
 
 function sayHello(userName) {
-	
-	let myNme = "Саша";
 
-	let message = `Привет, Мир! Меня зовут ${name}.`;
+	let message = `Привет, Мир! Меня зовут ${userName}.`;
 
 	return message;
 }
